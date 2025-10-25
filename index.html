@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tìm kiếm Sách - Nguyệt Linh</title>
+  <link rel="stylesheet" href="nguyetlinh.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Tìm Kiếm Thông Tin Sách</h1>
+    <p class="desc">Nhập Book ID để tra cứu thông tin sách trong hệ thống BookStore.</p>
+
+    <div class="search-box">
+      <label for="bookid">Nhập Book ID:</label>
+      <input type="number" id="bookid" placeholder="VD: 1, 2, 3..." />
+      <button onclick="timSach()">Tìm kiếm</button>
+    </div>
+
+    <div id="ketqua" class="result-box"></div>
+  </div>
+
+  <script src="nguyetlinh.js"></script>
+</body>
+</html>
